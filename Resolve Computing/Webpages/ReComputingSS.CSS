@@ -1,0 +1,698 @@
+* {
+  box-sizing: border-box;
+}
+
+body,h1,h2,h3,h4,h5,h6,p,div {font-family: 'Lato', sans-serif;}
+
+body, html {
+  height: 100%;
+  color: white;
+  line-height: 1.8;
+}
+
+.navbar{
+  font-family: 'Lato', sans-serif;
+  text-align:center!important;
+  background-color: #333;
+}
+
+/* .sidenavbar {
+  width: 160px;
+  position: absolute;
+  top: 4vw;
+  right: 2vw;
+  background: #333;
+  padding: 1px;
+  border: 1px solid white;
+}
+
+.sidenavbar a {
+  padding: 6px 8px 6px 10px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #0c95ad;
+  display: block;
+}
+
+.sidenavbar a:hover {
+  color: white;
+} */
+
+.bottom-navbar{
+  font-family: 'Lato', sans-serif;
+  text-align:center!important;
+  background-color: #333;
+  Font-Size: 2vw;
+  padding-top:15px;
+}
+
+.container{
+  position: relative;
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.services-container{
+  background-color: #333;
+  position: relative;
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.main-video {
+  float: left;
+  width: 50%;
+  padding: 2px 0px 2px 2px;
+}
+
+.services-video {
+  float: left;
+  width: 40vw;
+  margin: 4vw;
+  border:0.15vw solid white;
+}
+
+.products-text1 {
+  width: 20%;
+  position: absolute;
+  left: 3vw;
+  top: 0.5vw;
+  font-size: 5vw;
+}
+
+.products-text2 {
+  width: 30%;
+  position: absolute;
+  left: 3vw;
+  top: 12vw;
+  font-size: 2vw;
+}
+
+.products-text3 {
+  width: 30%;
+  position: absolute;
+  left: 3vw;
+  top: 30vw;
+  font-size: 1.5vw;
+}
+
+.services-text1 {
+  width: 20%;
+  position: absolute;
+  left: 53vw;
+  top: 0.5vw;
+  font-size: 5vw;
+}
+
+.services-text2 {
+  width: 30%;
+  position: absolute;
+  left: 53vw;
+  top: 12vw;
+  font-size: 2vw;
+}
+
+.services-text3 {
+  width: 30%;
+  position: absolute;
+  left: 53vw;
+  top: 30vw;
+  font-size: 1.5vw;
+}
+
+.services-page-text1 {
+  position: absolute;
+  left: 19vw;
+  top: 4vw;
+  font-size: 3vw;
+}
+
+.services-page-text2 {
+  position: absolute;
+  left: 64vw;
+  top: 4vw;
+  font-size: 3vw;
+}
+
+.services-page-text3 {
+  position: absolute;
+  left: 17.5vw;
+  top: 52vw;
+  font-size: 3vw;
+}
+
+.services-page-text4 {
+  position: absolute;
+  left: 66vw;
+  top: 52vw;
+  font-size: 3vw;
+}
+
+.products-services-page-text1 {
+  width: 20%;
+  position: absolute;
+  left: 35vw;
+  top: 10vw;
+  font-size: 5vw;
+}
+
+.products-services-page-text2 {
+  width: 50%;
+  position: absolute;
+  left: 35vw;
+  top: 20vw;
+  font-size: 1.5vw;
+}
+
+.function-title {
+  font-size: 60px;
+  text-align: center;
+}
+
+.function-content {
+  border-top: 0.25vw solid white;
+  padding-top:20px;
+}
+
+.label {
+  position: relative;
+  left: 5.5vw;
+  padding-top:10px;
+}
+
+.image{
+  width: 100%;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.products-column {
+  float: left;
+  width: 25%;
+  margin: 4vw;
+}
+
+.services-column {
+  float: left;
+  width: 40%;
+  margin: 4vw;
+}
+
+.specific-item {
+  width: 25vw;
+  height: auto;
+  margin: 1vw;
+}
+
+.row{
+  width: 100%;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#main-banner{
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+#products-banner{
+  position: relative;
+  display: block;
+  max-width: 30vw;
+  height: auto;
+  left: 5vw;
+}
+
+#services-banner{
+  position: relative;
+  display: block;
+  max-width: 22vw;
+  height: auto;
+  top: 3vw;
+  left: 10vw;
+}
+
+#about-page p{
+  margin:0;
+  padding:0px 25px 0px 25px;
+  font-size:2vw;
+  text-align: center;
+  background-color: #333333;
+}
+
+.input-box {
+  width: 30%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 1vw;
+}
+
+.input-submit {
+  width: 100px;
+  background-color: #0c95ad;
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+  margin: 10px 2px;
+  cursor: pointer;
+  position: relative;
+}
+
+.form-container {
+  padding: 0px;
+}
+
+/* The message box is shown when the user clicks on the password field */
+#message1, #message2, #message3, #message4 {
+  display:none;
+  background: #f1f1f1;
+  color: #000;
+  position: relative;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+#message1 p, #message2 p, #message3 p, #message4 p {
+  padding: 10px 35px;
+  font-size: 18px;
+}
+
+/* Add a green text color and a checkmark when the requirements are right */
+.valid, .book-valid {
+  color: green;
+}
+
+.valid:before {
+  position: relative;
+  left: -35px;
+  content: "✔";
+}
+
+/* Add a red text color and an "x" when the requirements are wrong */
+.invalid, .book-invalid {
+  color: red;
+}
+
+.invalid:before {
+  position: relative;
+  left: -35px;
+  content: "✖";
+}
+
+/* body {
+	font-family: Arial;
+	color: #211a1a;
+	font-size: 0.9em;
+} */
+
+#shopping-cart {
+	margin: 40px;
+}
+
+#product-grid {
+	margin: 40px;
+}
+
+#shopping-cart table {
+	width: 100%;
+	background-color: #F0F0F0;
+}
+
+#shopping-cart table td {
+	background-color: #FFFFFF;
+}
+
+.txt-heading {
+	color: #211a1a;
+	border-bottom: 1px solid #E0E0E0;
+	overflow: auto;
+}
+
+.empty-button {
+	background-color: #ffffff;
+	border: #0c95ad 1px solid;
+	padding: 5px 10px;
+	color: #0c95ad;
+	text-decoration: none;
+	border-radius: 3px;
+	margin: 0vw 0vw 10vw 10vw;
+  position: relative;
+}
+
+.btnAddAction {
+  padding: 5px 10px;
+  background-color: #efefef;
+  border: #E0E0E0 1px solid;
+  color: #0c95ad;
+  float: right;
+  text-decoration: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+#product-grid .txt-heading {
+	margin-bottom: 18px;
+}
+
+.product-image {
+  width: 15vw;
+	height: auto;
+  float: left;
+}
+
+.cart-item-image{
+  width: 10%;
+  float: left;
+  margin-right: 1.5vw;
+}
+
+.item-table {
+  margin-top:2vw;
+  margin-bottom: 0;
+}
+
+.item-header {
+  background-color: grey;
+}
+
+.item-container {
+  background-color: white;
+}
+
+.product-row, .item-row{
+  background-color: white;
+  border: 10px solid white;
+}
+
+.cart-row, .cart-summary{
+  color: black;
+  background-color: white;
+  border: 10px solid white;
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+}
+
+.product-row::after, .item-row::after {
+  content: "";
+ clear: both;
+ display: table;
+}
+
+.product-column1 {
+  float: left;
+  width: 12%;
+}
+
+.product-column2 {
+  float: left;
+  width: 55%;
+}
+
+.product-column3 {
+  float: left;
+  width: 16%;
+}
+
+.product-column4 {
+  float: left;
+  width: 17%;
+}
+
+.product-quantity {
+  margin: 1vw;
+  width: 80%;
+}
+
+.product-add{
+  margin: 1vw;
+  width: 80%;
+}
+
+.product-stock {
+  margin-top: 3vw;
+  color: black;
+  position: relative;
+  left: 5vw;
+}
+
+.product-price {
+  margin-top: 3vw;
+  color: black;
+  position: relative;
+  left: 3vw;
+}
+
+.product-title {
+  margin-top: 3vw;
+  color: black;
+  position: relative;
+  left: 2vw;
+}
+
+.service-row{
+  background-color: white;
+  border: 10px solid white;
+  width: 100%;
+}
+
+.service-row::after {
+  content: "";
+ clear: both;
+ display: table;
+}
+
+.service-column1 {
+  float: left;
+  width: 60%;
+}
+
+.service-column2 {
+  float: left;
+  width: 16%;
+}
+
+.service-column3 {
+  margin: 5px 0px 0px 55px;
+  float:left;
+  width: 8.5%;
+}
+
+.service-column4 {
+  float: left;
+  width: 9%;
+}
+
+.service-quantity {
+  margin: 1vw;
+  width: 80%;
+}
+
+.service-add {
+  left: 0vw;
+  width: 20%;
+}
+
+.service-stock {
+  margin-top: 3vw;
+  color: black;
+  position: relative;
+  left: 5vw;
+}
+
+.service-price {
+  margin-top: 3vw;
+  color: black;
+  position: relative;
+  left: 3vw;
+}
+
+.service-name {
+  margin-top: 2vw;
+  color: black;
+  position: relative;
+  left: 2vw;
+}
+
+.service-date, .service-time {
+  color: black;
+  position: relative;
+  left: 1vw;
+}
+
+.service-image {
+  width: 8vw;
+  position: relative;
+  top: 0;
+	height: auto;
+  float: left;
+}
+
+.service-subcolumn1 {
+  float: left;
+  left: 1vw;
+  width: 50%;
+}
+
+.service-subcolumn2 {
+  float: left;
+  width: 50%;
+}
+
+form.search-bar input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+  box-sizing: border-box;
+}
+
+form.search-bar button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background-color: #0c95ad;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+  box-sizing: border-box;
+  height: 46.5px;
+}
+
+form.search-bar button:hover {
+  background: #0a7b8f;
+}
+
+form.search-bar::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+@media screen and (max-width:1200px) {
+  .input-box {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width:800px) {
+  .main-video {
+    width:100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+
+  .services-video {
+    width: 88vw;
+    border:0.2vw solid white;
+  }
+
+  .products-text1, .services-text1{
+    width: 40%; left: 6vw; font-size: 10vw;
+  }
+  .products-text2, .services-text2{
+    width: 60%; left: 6vw; font-size: 4vw;
+  }
+
+  .products-text3, .services-text3{
+    width: 60%; left: 6vw; font-size: 3vw;
+  }
+
+  .products-text1{
+    top: 1vw;
+  }
+
+  .products-text2{
+    top: 24vw;
+  }
+
+  .products-text3{
+    top: 60vw;
+  }
+
+  .services-text1{
+    top: 100vw;
+  }
+
+  .services-text2{
+    top: 124vw;
+  }
+
+  .services-text3{
+    top:160vw;
+  }
+
+
+
+  .products-services-page-text1{
+    width: 40%;
+    position: relative;
+    left: 0vw;
+    top: 0vw;
+    font-size: 10vw;
+    display: block; /* center */
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .products-services-page-text2{
+    width: 100%;
+    position: relative;
+    left: 0vw;
+    top: 0vw;
+    font-size: 5vw;
+    text-align: center;
+    padding: 1vw 4vw 4vw 4vw;
+  }
+
+  .products-column {
+    float: left;
+    width: 92%;
+    margin: 4vw;
+  }
+
+  .payment-plan-div {
+    width:50%;
+  }
+
+  #products-banner{
+    position: relative;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    left: 0vw;
+    display: block; /* center */
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #services-banner{
+    position: relative;
+    display: block;
+    max-width: 75%;
+    height: auto;
+    left: 0vw;
+    display: block; /* center */
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 3vw;
+    padding-bottom: 6vw;
+  }
+
+  #about-page p{
+    font-size: 4vw
+  }
+}
+

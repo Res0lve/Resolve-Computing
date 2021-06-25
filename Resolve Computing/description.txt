@@ -1,0 +1,4 @@
+Web - Online Store
+Technology: HTML, CSS, Javascript, PHP, SQL, Database
+
+Full stack website with frontend and backend features
